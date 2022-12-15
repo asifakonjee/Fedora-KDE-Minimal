@@ -10,8 +10,8 @@ max_parallel_downloads=10
 
 fastestmirror=True
 
-## Ctrl S to save and then Ctrl Q to exit.
-
+# Ctrl S to save and then Ctrl Q to exit.
+## Then run the following commands:
 - git clone https://gitlab.com/asifakonjee/fedora-kde-minimal.git
 - cd fedora-kde-minimal/
 - sudo cdmod +x fedora-kde-minimal.sh
