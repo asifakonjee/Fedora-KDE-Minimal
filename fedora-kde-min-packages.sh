@@ -5,6 +5,13 @@ if ! [ $(id -u) = 0 ]; then
   exit 1
 fi
 
+# RPM Fusion & Others:
+  echo "RPM Fusion..."
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+# Update
+sudo dnf update
+
 # Install KDE Packages
 dnf install \
   @"base-x" \
@@ -22,6 +29,7 @@ dnf install \
   cups \
   cups-pk-helper \
   dolphin \
+  evince \
   firewall-config \
   glibc-all-langpacks \
   gnome-keyring-pam \
@@ -107,9 +115,7 @@ dnf install \
   hplip \
   qbittorrent \
 
-##RPM Fusion & Others:
-  echo "RPM Fusion..."
-sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
 
 ##SDDM:
   echo "Enableing SDDM"
