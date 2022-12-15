@@ -1,6 +1,7 @@
 ## This is still in Alpha level. Use this only if you know what you are doing!
 
-This is simple script to install minimal KDE plasma DE on Fedora minimal install. The ISO I have used is Fedora 37 Everything ISO and then only choose minimal install. Then follow these processes:
+This is simple script to install minimal KDE plasma DE on Fedora minimal install. The ISO is Fedora 37 Everything ISO and then only choose minimal install in the "Software Selection". After Installation login with your user name and password and then follow these processes:
+
 - sudo dnf install micro git
 - sudo micro /etc/dnf/dnf.conf ## To edit the dnf config file, add these lines
 
