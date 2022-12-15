@@ -1,4 +1,4 @@
-## This is still in Alpha level. Use this only if you know what you are doing!
+## This is still in Beta level. Use this only if you know what you are doing!
 
 This is simple script to install minimal KDE plasma DE on Fedora minimal install. The ISO is Fedora 37 Everything ISO and then only choose minimal install in the "Software Selection". After Installation login with your user name and password and then follow these processes:
 
