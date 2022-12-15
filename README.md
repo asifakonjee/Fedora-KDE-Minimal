@@ -15,7 +15,7 @@ fastestmirror=True
 ## Then run the following commands:
 - git clone https://gitlab.com/asifakonjee/fedora-kde-minimal.git
 - cd fedora-kde-minimal/
-- sudo cdmod +x fedora-kde-minimal.sh
+- sudo chmod +x fedora-kde-minimal.sh
 - sudo ./fedora-kde-minimal.sh
 
 After completion, reboot.
