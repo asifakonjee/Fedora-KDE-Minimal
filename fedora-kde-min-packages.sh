@@ -117,7 +117,6 @@ dnf install \
   neofetch \
   htop \
   timeshift \
-  zsh \
   exa \
   zstd \
   gwenview \
@@ -129,9 +128,7 @@ dnf install \
   vlc \
   ffmpeg \
   ffmpegthumbs \
-  ranger \
   kvantum \
-  hplip \
   qbittorrent \
 
 
