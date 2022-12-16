@@ -15,7 +15,7 @@
 # 
 #############################################################
 #
-# This is a simple Bash script to install KDE Plasma with minimum required applications.
+# This is a simple Bash script to install KDE Plasma with minimum required applications on Fedora Minimal.
 
 
 ## CHECK FOR SUDO or ROOT ##
